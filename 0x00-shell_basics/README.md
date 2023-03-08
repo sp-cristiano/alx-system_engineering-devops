@@ -18,3 +18,4 @@ cp -un *.html ..   Command will copy all html files from current directory to th
 mv [[:upper:]]* /tmp/u Command will move all files begining with an uppercase letter to directory /tmp/u
 rm *~ Command will delete files in currnt directory ending with the character ~
 mkdir -p welcome/to/school in the current directory
+ls -mpav Command to list all files and directroy seperated by commas, directory name should end with slash and sorted by digits and letters.
