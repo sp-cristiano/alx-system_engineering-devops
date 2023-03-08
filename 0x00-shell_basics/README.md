@@ -9,3 +9,4 @@ mkdiir /tmp/my_first_directory  Command will create a director named my_first_di
 mv /tmp/betty /tmp/my_first_directory Command will move the file betty form /tmp/ to /tmp/my_first_directory.
 rm /tmp/my_first_directory/betty Command will remove the file betty from  /tmp/my_first_directory.
 rm -r /tmp/my_first_directory Command will delete the directory my_first_directory from the /tmp/ directory.
+cd - Command will change the working directory to the previous one.
