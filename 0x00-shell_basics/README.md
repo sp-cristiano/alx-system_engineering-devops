@@ -11,3 +11,4 @@ rm /tmp/my_first_directory/betty Command will remove the file betty from  /tmp/m
 rm -r /tmp/my_first_directory Command will delete the directory my_first_directory from the /tmp/ directory.\n
 cd - Command will change the working directory to the previous one.\n
 ls -al . .. /boot Command will list all files including hidden files in the current, parent of the current  and /boot directory in long format.\n
+file /tmp/iamafile Command will print the type of the file named iamafile \n
