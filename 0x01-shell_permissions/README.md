@@ -12,4 +12,4 @@ chmod +111 hello Command add execute permission to everybody. \n
 chmod 007 hello Command wil set permission for only other ussers to have all permissions. \n
 chmod 753 hello Command will set permission of hello to -rwxr-x-wx. \n
 chmod --reference olleh hello Command will set the mode of the file hello the same as olleh's mode. \n
-chmod -R a+X Command will add execute permission to all subdirectories of the current directoryto all user, groups and owner. \n
+chmod x+x */  Command will add execute permission to all subdirectories of the current directoryto all user, groups and owner. \n
