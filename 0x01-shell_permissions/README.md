@@ -5,3 +5,4 @@ su betty Command switches the current user to the user betty.\n
 whoami Command prints the effective username of the current user.\n
 groups Command prints all the groups the current user is part of. \n
 sudo chown betty hello Command changes the owner of the file hello to betty. \n
+touch hello Command will create an empty file callled hello. \n
