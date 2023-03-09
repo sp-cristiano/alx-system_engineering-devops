@@ -7,3 +7,4 @@ groups Command prints all the groups the current user is part of. \n
 sudo chown betty hello Command changes the owner of the file hello to betty. \n
 touch hello Command will create an empty file callled hello. \n
 chmod u+x hello Command will add execute permission to the owner of the file hello. \n
+chmod +114 hello Command will add execute permission the the owner, and permission to other users to the file
