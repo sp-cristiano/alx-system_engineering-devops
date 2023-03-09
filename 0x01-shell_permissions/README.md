@@ -13,4 +13,5 @@ chmod 007 hello Command wil set permission for only other ussers to have all per
 chmod 753 hello Command will set permission of hello to -rwxr-x-wx. \n
 ihmod --reference olleh hello Command will set the mode of the file hello the same as olleh's mode. \n
 chmod -R ugo+X  Command will add execute permission to all subdirectories of the current directoryto all user, groups and owner. \n
-mkdir -m 751 my_dir Command creates directory called my_dir with permissions 751
+mkdir -m 751 my_dir Command creates directory called my_dir with permissions 751. \n
+chgrp school hello Command will change the group owner to school for the file hello. \n
