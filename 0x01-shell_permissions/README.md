@@ -16,4 +16,4 @@ chmod -R ugo+X  Command will add execute permission to all subdirectories of the
 mkdir -m 751 my_dir Command creates directory called my_dir with permissions 751. \n
 chgrp school hello Command will change the group owner to school for the file hello. \n
 chown -hR vincent:staff Command will change the owner to vincent and the group owner to staff. \n
-
+own -h vincent:staff _hello Command changes the owner adn the group owner of _hello to vincent and staff respectively. \n
