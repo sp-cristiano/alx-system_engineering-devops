@@ -9,3 +9,4 @@ touch hello Command will create an empty file callled hello. \n
 chmod u+x hello Command will add execute permission to the owner of the file hello. \n
 chmod +114 hello Command will add execute permission the the owner, and permission to other users to the file
 chmod +111 hello Command add execute permission to everybody. \n
+chmod 007 hello Command wil set permission for only other ussers to have all permissions. \n
