@@ -22,3 +22,5 @@ tail -n 1 iacta >> iacta Command will duplicate the last line of the file iacta.
 find . -type f -name "*.js" -delete Command will delete all the regular files with a .js extension.\n
 
 find . mindepth 1 -type d | wc -l Command will count the number of directories and sub-directories in the current directory. \n 
+
+ls -t | head Command display the 10 newest files in the current directory.\n
