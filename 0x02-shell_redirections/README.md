@@ -24,3 +24,5 @@ find . -type f -name "*.js" -delete Command will delete all the regular files wi
 find . mindepth 1 -type d | wc -l Command will count the number of directories and sub-directories in the current directory. \n 
 
 ls -t | head Command display the 10 newest files in the current directory.\n
+
+sort | uniqu -u Command takesa list of words as input and prints only words that appear exactly once. \n
