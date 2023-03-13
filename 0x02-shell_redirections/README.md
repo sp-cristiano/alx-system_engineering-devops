@@ -18,3 +18,5 @@ head -n 3 ./iacta | tail -n 1 Command will display the third line of the file ia
 ls -la > ls_cwd_content Command writes into the file ls_cwd_content the result of the command ls -al. \n
 
 tail -n 1 iacta >> iacta Command will duplicate the last line of the file iacta. \n
+
+find . -type f -name "*.js" -delete Command will delete all the regular files with a .js extension.
