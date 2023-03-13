@@ -19,4 +19,6 @@ ls -la > ls_cwd_content Command writes into the file ls_cwd_content the result o
 
 tail -n 1 iacta >> iacta Command will duplicate the last line of the file iacta. \n
 
-find . -type f -name "*.js" -delete Command will delete all the regular files with a .js extension.
+find . -type f -name "*.js" -delete Command will delete all the regular files with a .js extension.\n
+
+find . mindepth 1 -type d | wc -l Command will count the number of directories and sub-directories in the current directory. \n 
