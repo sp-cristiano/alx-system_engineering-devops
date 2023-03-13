@@ -8,3 +8,6 @@ echo "\"(Ôo)'" Command will display a confused similey "(Ôo)'. /n
 cat /etc/passwd Command will display the content of the /etc/passwd file. /n
 
 cat /etc/passwd /etc/hosts Command will display the content of the /etc/passwd and /etc/hosts files. /n
+
+
+tail /etc/passwd Command silll display the last 10 lines of /etc/passwd. /n
