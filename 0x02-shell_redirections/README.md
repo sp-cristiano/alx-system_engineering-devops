@@ -4,3 +4,5 @@
 echo "Hello, World" Command will print "Hello, World" followed by a new line to the standard output
 
 echo "\"(Ôo)'" Command will display a confused similey "(Ôo)'
+
+cat /etc/passwd Command will display the content of the /etc/passwd file
