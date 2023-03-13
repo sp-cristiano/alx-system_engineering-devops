@@ -10,4 +10,6 @@ cat /etc/passwd Command will display the content of the /etc/passwd file. /n
 cat /etc/passwd /etc/hosts Command will display the content of the /etc/passwd and /etc/hosts files. /n
 
 
-tail /etc/passwd Command silll display the last 10 lines of /etc/passwd. /n
+tail /etc/passwd Command willl display the last 10 lines of /etc/passwd. /n
+
+head /etc/passwd Command will display the first 10 lines of /etc/passwd. /n
