@@ -13,3 +13,5 @@ cat /etc/passwd /etc/hosts Command will display the content of the /etc/passwd a
 tail /etc/passwd Command willl display the last 10 lines of /etc/passwd. /n
 
 head /etc/passwd Command will display the first 10 lines of /etc/passwd. /n
+
+head -n 3 iacta Command will display the third line of the file iacta. /n
