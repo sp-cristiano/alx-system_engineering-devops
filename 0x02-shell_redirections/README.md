@@ -26,3 +26,5 @@ find . mindepth 1 -type d | wc -l Command will count the number of directories a
 ls -t | head Command display the 10 newest files in the current directory.\n
 
 sort | uniqu -u Command takesa list of words as input and prints only words that appear exactly once. \n
+
+grep "root" /etc/passwd Command will Display lines containing the pattern “root” from the file /etc/passw. \n
