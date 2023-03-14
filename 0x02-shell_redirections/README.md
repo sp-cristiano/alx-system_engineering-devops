@@ -49,7 +49,8 @@ cut -d":" --fields=1,6 etc/passwd | sort  Command will display all users and the
 
 find . -empty | rev | cut -d '/' -f 1 | rev Command will find all empty files and directories in the current directory and sub-directories. \n
 
-find . -type f -name "*.gif" -printf "%f/n" | rev | cut -d '.' -f2- | rev | LC_ALL=C sort -f  Command will list all the files with a .gif extension in the current directory and all its sub-directories
+find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f
+ Command will list all the files with a .gif extension in the current directory and all its sub-directories
 
 cut -c 1 | paste -s -d '' Command decoded acrostics that use the first letter of each line. \n
 
