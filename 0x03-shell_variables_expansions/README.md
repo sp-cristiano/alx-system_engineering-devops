@@ -33,6 +33,7 @@ printf '%x\n' $DECIMAL Command converts a number form base 10 to base 16. \n
 
 tr 'A-Za-z' 'N-ZA-Mn-za-m' Command will encode and decode text using the rot13 encryption.
 
+paste -d, - - | cut -d, -fl  Command will print every other line from the input, starting with the first line
 
 
 
