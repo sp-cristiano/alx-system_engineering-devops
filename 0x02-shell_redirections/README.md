@@ -48,3 +48,5 @@ rev  Command will reverse its input. \n
 cut -d":" --fields=1,6 etc/passwd | sort  Command will display all users and their home directories, sorted by users. \n
 
 find . -empty | rev | cut -d '/' -f 1 | rev Command will find all empty files and directories in the current directory and sub-directories. \n
+
+find . -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' 2- | rev | LC_ALL=c sort -f Command will list all the files with a .gif extension in the current directory and all its sub-directories
