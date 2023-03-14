@@ -33,4 +33,4 @@ grep "bin" /etc/passwd | wc -l Command will displah the number of lines that con
 
 grep -A 3 "root" /etc/passwd Command display lines containing the pattern "root" and 3 lines after them in the file /etc/passwd. \n 
 
-grep -v "bin" /etc/passwd | wc -l Command displays all the lines in the file /etc/passwd
+grep -v "bin" /etc/passwd Command displays all the lines in the file /etc/passwd . \n
