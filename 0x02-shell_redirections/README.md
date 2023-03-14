@@ -38,3 +38,5 @@ grep -v "bin" /etc/passwd Command displays all the lines in the file /etc/passwd
 grep '^[[:alpha:]]' etc/ssh/sshd_config Command will display all lines of the file /etc/ssh/sshd_config starting with a letter. \n
 
 tr Ac Ze Command will replace all characters A and c from input to Z and e respectively. \n
+
+tr -d 'cC' Command will removes all letter c and C from input. \n
