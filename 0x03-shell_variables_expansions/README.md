@@ -11,4 +11,7 @@ echo $PATH | tr ':' '\n' | wc -l Command will count the number of directories in
 
 printenv Command lists environment variables. \n
 
+set Command list local and environment variables and functions. \n
+
+
 
