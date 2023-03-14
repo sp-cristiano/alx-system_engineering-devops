@@ -47,4 +47,4 @@ rev  Command will reverse its input. \n
 
 cut -d":" --fields=1,6 etc/passwd | sort  Command will display all users and their home directories, sorted by users. \n
 
-find . -empty -printf "%f/n" Command will find all empty files and directories in the current directory and sub-directories. \n
+find . -empty | rev | cut -d '/' -f 1 | rev Command will find all empty files and directories in the current directory and sub-directories. \n
