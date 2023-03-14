@@ -52,3 +52,6 @@ find . -empty | rev | cut -d '/' -f 1 | rev Command will find all empty files an
 find . -type f -name "*.gif" -printf "%f/n" | rev | cut -d '.' -f2- | rev | LC_ALL=C sort -f  Command will list all the files with a .gif extension in the current directory and all its sub-directories
 
 cut -c 1 | paste -s -d '' Command decoded acrostics that use the first letter of each line. \n
+
+tail -n +2 | cut -f -l | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev |cut -d ' ' -f -l | rev
+  Command will parse web server logs in TSV format as input and displays the 11 hosts or IP addresses which did the most request. \n
