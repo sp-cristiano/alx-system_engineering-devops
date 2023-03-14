@@ -13,5 +13,6 @@ printenv Command lists environment variables. \n
 
 set Command list local and environment variables and functions. \n
 
+BEST="School" Command will create a new local variable with name: BEST and value: School. \n
 
 
