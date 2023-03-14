@@ -34,4 +34,7 @@ grep "bin" /etc/passwd | wc -l Command will displah the number of lines that con
 grep -A 3 "root" /etc/passwd Command display lines containing the pattern "root" and 3 lines after them in the file /etc/passwd. \n 
 
 grep -v "bin" /etc/passwd Command displays all the lines in the file /etc/passwd . \n
+
 grep '^[[:alpha:]]' etc/ssh/sshd_config Command will display all lines of the file /etc/ssh/sshd_config starting with a letter. \n
+
+tr Ac Ze Command will replace all characters A and c from input to Z and e respectively. \n
