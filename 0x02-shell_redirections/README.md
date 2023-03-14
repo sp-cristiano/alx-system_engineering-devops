@@ -40,3 +40,4 @@ grep '^[[:alpha:]]' etc/ssh/sshd_config Command will display all lines of the fi
 tr Ac Ze Command will replace all characters A and c from input to Z and e respectively. \n
 
 tr -d 'cC' Command will removes all letter c and C from input. \n
+rev  Command will reverse its input. \n
