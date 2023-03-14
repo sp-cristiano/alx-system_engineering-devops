@@ -7,5 +7,8 @@ echo "hello $USER" Command will print hello user, where user is the current Linu
 
 PATH=$PATH:/action Command adds /action to the PATH. \n
 
-echo $PATH | tr ':' '\n' | wc -l Command will count the number of directories in the PATH.
+echo $PATH | tr ':' '\n' | wc -l Command will count the number of directories in the PATH. \n
+
+printenv Command lists environment variables. \n
+
 
