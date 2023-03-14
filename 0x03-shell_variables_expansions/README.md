@@ -19,5 +19,9 @@ export BEST="School" Command will create a new glocal variable with name: BEST a
 
 echo $((128 + $TRUEKNOWLEDGE)) Command will print the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE. \n
 
-echo $(($POWER/$DIVIDE)) Command will print the result of environment variables POWER divided by DIVIDE
+echo $(($POWER/$DIVIDE)) Command will print the result of environment variables POWER divided by DIVIDE. \n
+
+echo $(($BREATH**$LOVE)) Command will display the result of BREATH to the power LOVE. \n
+
+
 
