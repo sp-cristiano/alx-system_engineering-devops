@@ -27,5 +27,8 @@ echo $((2#$BINARY)) Command will convert a number from base 2 to base 10 where t
 
 echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo" Command will print all possible compinations of two letters, except oo. \n
 
+printf '%.2f\n' $NUM Command willprint a number with two decimal places. \n
+
+
 
 
