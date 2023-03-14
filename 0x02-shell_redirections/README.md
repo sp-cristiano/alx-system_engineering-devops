@@ -53,5 +53,5 @@ find . -type f -name "*.gif" -printf "%f/n" | rev | cut -d '.' -f2- | rev | LC_A
 
 cut -c 1 | paste -s -d '' Command decoded acrostics that use the first letter of each line. \n
 
-tail -n +2 | cut -f -l | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev |cut -d ' ' -f -l | rev
+tail -n +2 | cut -f -l | sort -k l | uniq -c | sort -rnk 1 | head -n 11 | rev |cut -d ' ' -f -l | rev
   Command will parse web server logs in TSV format as input and displays the 11 hosts or IP addresses which did the most request. \n
