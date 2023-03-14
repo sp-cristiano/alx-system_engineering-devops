@@ -23,5 +23,6 @@ echo $(($POWER/$DIVIDE)) Command will print the result of environment variables 
 
 echo $(($BREATH**$LOVE)) Command will display the result of BREATH to the power LOVE. \n
 
+echo $((2#$BINARY)) Command will convert a number from base 2 to base 10 where the number in base 2 is stored in the environment variable BINARY
 
 
