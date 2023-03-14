@@ -17,4 +17,4 @@ BEST="School" Command will create a new local variable with name: BEST and value
 
 export BEST="School" Command will create a new glocal variable with name: BEST and value: School . \n
 
-
+echo $((128 + $TRUEKNOWLEDGE)) Command will print the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE. \n
