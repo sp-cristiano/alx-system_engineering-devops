@@ -13,7 +13,7 @@ tail /etc/passwd Command willl display the last 10 lines of /etc/passwd. /n
 
 head /etc/passwd Command will display the first 10 lines of /etc/passwd. /n
 
-echo "Best School" > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*:\) Command creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School.
+echo "Best School" > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*:\) Command creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School. \n
 
 head -n 3 ./iacta | tail -n 1 Command will display the third line of the file iacta. /n
 
@@ -47,4 +47,4 @@ rev  Command will reverse its input. \n
 
 cut -d":" --fields=1,6 etc/passwd | sort  Command will display all users and their home directories, sorted by users. \n
 
-
+find . -empty -printf "%f/n" Command will find all empty files and directories in the current directory and sub-directories. \n
