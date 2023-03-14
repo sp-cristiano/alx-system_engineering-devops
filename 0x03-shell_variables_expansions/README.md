@@ -25,4 +25,7 @@ echo $(($BREATH**$LOVE)) Command will display the result of BREATH to the power 
 
 echo $((2#$BINARY)) Command will convert a number from base 2 to base 10 where the number in base 2 is stored in the environment variable BINARY
 
+echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo" Command will print all possible compinations of two letters, except oo. \n
+
+
 
